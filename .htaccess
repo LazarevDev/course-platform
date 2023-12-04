@@ -1,0 +1,19 @@
+# Enable rewriting engine
+RewriteEngine On
+ 
+# 0. Передаем категории 
+RewriteRule ^([^/]+)$ index.php?page=$1 [L]
+
+# 1. Обрезаем расширение файлов
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^index\.html$ / [L]
+
+# 8. Обработка запросов к robots.txt
+RewriteRule ^robots\.txt$ robots.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ job.php [L,QSA]
+
+RedirectMatch 301 ^(.*)-test$ $1
