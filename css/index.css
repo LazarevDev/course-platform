@@ -1,0 +1,852 @@
+/* positionAbsolute */
+
+.positionAbsolute{
+    width: 110px;
+    position: absolute;
+    left: 0;
+    top: 900px;
+}
+
+.positionAbsolute img{
+    width: 100%;
+    height: 100%;
+}
+
+/* sectionTitle */
+
+.sectionTitle h2{
+    color: #5865FE;
+    font-size: 32px;
+}
+
+/* home */
+
+.home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 160px 0 60px 0;
+}
+
+.circle{
+    position: absolute;
+    top: -450px;
+    left: -450px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    border: 150px solid #F6F7FF;
+    z-index: -9;
+}
+
+.homeContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homeText{
+    width: 780px;
+}
+
+.homeText h1{
+    font-size: 51px;
+    color: #5865FE;
+    font-weight: bold;
+    line-height: 56px;
+}
+
+.homeText h2{
+    font-size: 20px;
+    color: #666;
+    font-weight: unset;
+    margin: 15px 0 0 0;   line-height: 25px;
+}
+
+.homeBtnContainer{
+    display: flex;
+    align-items: center;
+    margin: 25px 0 0 0;
+}
+
+.coursesHomeBtn{
+    background: #5865FE;
+    border: 1px solid #5865FE;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 14px 28px;
+    transition: .4s;
+}
+
+.coursesHomeBtn:hover{
+    background: none;
+    color: #5865FE;
+}
+
+.moreHomeBtn{
+    background: none;
+    border: 1px solid #5865FE;
+    border-radius: 10px;    
+    text-decoration: none;
+    color: #5865FE;
+    font-weight: 500;
+    padding: 14px 28px;
+    margin: 0 0 0 15px;
+    transition: .4s;
+}
+
+.moreHomeBtn:hover{
+    background: #5865FE;
+    color: #fff;
+}
+
+.imgContainer{
+    position: relative;
+    width: 430px;
+}
+
+.imgBook{
+    position: absolute;
+    right: 0px;
+    top: 140px;
+}
+
+.imgHat{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.imgCover{
+    margin: 85px 0 0 0;
+}
+
+/* projectObjectives */
+
+.projectObjectives{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 0 0;
+}
+
+.projectObjectivesBlock{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background: #5865FE;
+    border-radius: 20px;
+}
+
+.hatAbsolute{
+    position: absolute;
+    right: 10px;
+    top: -35px;
+}
+
+.hatAbsolute img{
+    width: 110px;
+}
+
+.projectObjectivesBlockImg{
+    position: relative;
+    width: 360px;
+}
+
+.projectObjectivesBlockImg img{
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+}
+
+.projectObjectivesBlockText{
+    color: #fff;
+    padding: 0 0 20px 10px;
+}
+
+.projectObjectivesBlockText h2{
+    font-size: 32px;
+}
+
+.projectObjectivesBlockText p{
+    font-size: 16px;
+    margin: 15px 0 0 0;
+}
+
+.transparencyContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projectObjectivesTransparency50{
+    width: 97%;
+    height: 10px;
+    border-radius: 0 0 10px 10px;
+    background: #AFB6FF;
+}
+
+.projectObjectivesTransparency20{
+    width: 95%;
+    height: 10px;
+    border-radius: 0 0 10px 10px;
+    background: #D3D6FF;
+}
+
+/* courses */
+
+.courses{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 160px 0;
+}
+
+.coursesContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+.coursesBlock{
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin: 25px 0 0 0;
+    border-radius: 10px;
+    background: #FAFAFA;
+    transition: .4s;
+}
+
+.coursesBlockInformation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coursesBlockInformationText p{
+    color: #999;
+    font-size: 12px;
+    transition: .4s;
+}
+
+.coursesBlockInformationText h3{
+    color: #5865FE;
+    font-size: 18px;
+    margin: 5px 0 0 0;
+    transition: .4s;
+}
+
+.coursesBlockInformationImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    background: #F0F2FF;
+    transition: .4s;
+}
+
+.coursesBlockInformationImg img{
+    width: 43px;
+}
+
+.coursesBlockMore p{
+    margin: 25px 0 0 0;
+    color: #999;
+    position: relative;
+    font-size: 14px;
+    transition: .4s;
+}
+
+.coursesBlockMore p::after{
+    content: '\27F6';
+    margin-left: 10px;
+    color: #999;
+    transition: .4s;
+}  
+
+.coursesBlock:hover{
+    background: #5865FE;
+}
+
+.coursesBlock:hover .coursesBlockInformationText p{
+    color: #fff;
+}
+
+.coursesBlock:hover .coursesBlockInformationText h3{
+    color: #fff;
+}
+
+.coursesBlock:hover .coursesBlockInformationImg{
+    background: #636EFC;
+}
+
+.coursesBlock:hover .coursesBlockMore p{
+    color: #fff;
+}
+
+.coursesBlock:hover .coursesBlockMore p::after{
+    color: #fff;
+}
+
+/* more */
+
+.more{
+    display: flex;
+    justify-content: center;
+    background: #5865FE;
+    padding: 60px 0 80px 0;
+}
+
+.moreContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moreText{
+    width: calc(100% - 320px);
+}
+
+.moreText h3{
+    color: #fff;
+    font-size: 32px;
+}
+
+.moreText p{
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+
+.moreBtn{
+    display: inline-block;
+    padding: 14px 28px;
+    font-weight: 500;
+    color: #5865FE;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 25px 0 0 0;
+    transition: .4s;
+}
+
+.moreBtn:hover{
+    background: none;
+    color: #fff;
+}
+
+.moreImg{
+    position: relative;
+    width: 280px;
+}
+
+.moreImg img{
+    position: absolute;
+    right: 0;
+    top: -120px;
+    width: 100%;
+}
+
+/* blog */
+
+.blog{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 160px 0;
+}
+
+
+@media(min-width: 320px) and (max-width: 720px){
+    /* positionAbsolute */
+
+    .positionAbsolute{
+        display: none;
+    }
+
+    /* sectionTitle */
+
+    .sectionTitle h2{
+        text-align: center;
+        font-size: 28px;
+    }
+
+    /* home */
+
+    .home{
+        padding: 80px 0 40px 0;
+    }
+    
+    .circle{
+        top: -85vw;
+        left: -85vw;
+        width: 100vw;
+        height: 100vw;
+        border: 120px solid #F6F7FF;
+        z-index: -9;
+    }
+    
+    .homeContent{
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    
+    .homeText{
+        width: 100%;
+        text-align: center;
+        margin: 35px 0 0 0;
+    }
+    
+    .homeText h1{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .homeText h2{
+        font-size: 14px;
+        margin: 10px 0 0 0;   
+        line-height: 14px;
+    }
+    
+    .homeBtnContainer{
+        justify-content: center;
+    }
+    
+    .moreHomeBtn{
+        margin: 0 0 0 10px;
+    }
+    
+    .imgContainer{
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imgBook{
+        right: 45px;
+        top: 85px;
+    }
+
+    .imgBook img{
+        width: 26px;
+    }
+    
+    .imgHat{
+        left: 10px;
+        top: 20px;
+    }
+
+    .imgHat img{
+        width: 75px;
+    }
+    
+    .imgCover{
+        margin: 85px 0 0 0;
+    }
+
+    .imgCover img{
+        width: 280px;
+    }
+
+    /* projectObjectives */
+
+    .projectObjectives{
+        margin: 120px 0 0 0;
+    }
+
+    .projectObjectivesBlock{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .hatAbsolute{
+        display: none;
+    }
+
+    .projectObjectivesBlockImg{
+        width: 280px;
+    }
+
+    .projectObjectivesBlockImg img{
+        top: -100px;
+        width: 100%;
+    }
+
+    .projectObjectivesBlockText{
+        width: 100%;
+        text-align: center;
+        padding: 220px 0 20px 0px;
+    }
+
+    .projectObjectivesBlockText h2{
+        font-size: 28px;
+    }
+
+    .projectObjectivesBlockText p{
+        font-size: 16px;
+    }
+
+    .projectObjectivesTransparency50{
+        width: 90%;
+        height: 8px;
+    }
+
+    .projectObjectivesTransparency20{
+        width: 85%;
+        height: 8px;
+    }
+
+    /* more */
+
+    .more{
+        padding: 0px 0 40px 0;
+        margin: 160px 0 0 0 ;
+    }
+
+    .moreContent{
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .moreText{
+        margin: 300px 0 0 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .moreText h3{
+        font-size: 28px;
+    }
+
+    .moreText p{
+        font-size: 16px;
+    }
+
+    .moreImg{
+        width: 260px;
+    }
+
+    .moreImg img{
+        right: 0;
+        top: -60px;
+    }
+}
+
+
+@media(min-width: 720px) and (max-width: 920px){
+    /* positionAbsolute */
+
+    .positionAbsolute{
+        display: none;
+    }
+    
+    .home{
+        padding: 80px 0;
+    }
+    
+    .circle{
+        position: absolute;
+        top: -450px;
+        left: -450px;
+        width: 800px;
+        height: 800px;
+        border-radius: 50%;
+        border: 150px solid #F6F7FF;
+        z-index: -9;
+    }
+    
+    .homeText{
+        width: calc(100vw - 300px);
+    }
+    
+    .homeText h1{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    
+    .homeText h2{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    .imgContainer{
+        position: relative;
+        width: 280px;
+        display: flex;
+        justify-content: center
+    }
+    
+    .imgBook{
+        position: absolute;
+        right: 35px;
+        top: 80px;
+    }
+
+    .imgBook img{
+        width: 25px;
+    }
+    
+    .imgHat{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .imgHat img{
+        width: 70px;
+    }
+    
+    .imgCover{
+        margin: 85px 0 0 0;
+    }
+
+    .imgCover img{
+        width: 260px;
+    }
+        
+    /* projectObjectives */
+
+    .projectObjectives{
+        margin: 60px 0 0 0;
+    }
+
+    .projectObjectivesBlock{
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hatAbsolute img{
+        width: 90px;
+    }
+
+    .projectObjectivesBlockImg{
+        position: relative;
+        width: 200px;
+    }
+
+    .projectObjectivesBlockImg img{
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    .projectObjectivesBlockText{
+        color: #fff;
+        padding: 0 0 10px 10px;
+        width: calc(100% - 200px);
+    }
+
+    .projectObjectivesBlockText h2{
+        font-size: 28px;
+    }
+
+    .projectObjectivesBlockText p{
+        font-size: 14px;
+    }
+
+    .projectObjectivesTransparency50{
+        width: 95%;
+        height: 8px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .projectObjectivesTransparency20{
+        width: 90%;
+        height: 8px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    /* courses */
+
+    .coursesBlock{
+        width: 44vw;
+        padding: 15px 10px;
+    }
+
+    /* more */
+
+    .more{
+        padding: 40px 0 40px 0;
+    }
+
+    .moreText{
+        width: calc(100% - 250px);
+    }
+
+    .moreImg{
+        width: 240px;
+    }
+
+    .moreImg img{
+        top: -90px;
+    }
+}
+
+
+@media(min-width: 920px) and (max-width: 1330px){
+    /* positionAbsolute */
+
+    .positionAbsolute{
+    display: none;
+}
+
+    .home{
+        padding: 60px 0;
+    }
+    
+    .circle{
+        position: absolute;
+        top: -450px;
+        left: -450px;
+        width: 800px;
+        height: 800px;
+        border-radius: 50%;
+        border: 150px solid #F6F7FF;
+        z-index: -9;
+    }
+    
+    
+    .homeText{
+        width: calc(100vw - 460px);
+    }
+    
+    .homeText h1{
+        font-size: 38px;
+        line-height: 38px;
+    }
+    
+    .homeText h2{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    .imgContainer{
+        position: relative;
+        width: 420px;
+        display: flex;
+        justify-content: center
+    }
+    
+    .imgBook{
+        position: absolute;
+        right: 45px;
+        top: 95px;
+    }
+
+    .imgBook img{
+        width: 30px;
+    }
+    
+    .imgHat{
+        position: absolute;
+        left: 10px;
+        top: 20px;
+    }
+
+    .imgHat img{
+        width: 85px;
+    }
+    
+    .imgCover{
+        margin: 85px 0 0 0;
+    }
+
+    .imgCover img{
+        width: 340px;
+    }
+            
+    /* projectObjectives */
+
+    .projectObjectives{
+        margin: 60px 0 0 0;
+    }
+
+    .projectObjectivesBlock{
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hatAbsolute img{
+        width: 90px;
+    }
+
+    .projectObjectivesBlockImg{
+        position: relative;
+        width: 200px;
+    }
+
+    .projectObjectivesBlockImg img{
+        position: relative;
+        left: auto;
+        top: auto;
+    }
+
+    .projectObjectivesBlockText{
+        color: #fff;
+        padding: 0 0 10px 10px;
+        width: calc(100% - 200px);
+    }
+
+    .projectObjectivesTransparency50{
+        width: 95%;
+        height: 8px;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .projectObjectivesTransparency20{
+        width: 90%;
+        height: 8px;
+        border-radius: 0 0 8px 8px;
+    }
+    
+    /* courses */
+
+    .coursesBlock{
+        width: 29vw;
+        padding: 15px 10px;
+    }
+
+}
+
+
+
+
+/* Адаптация для курсов (мобильная версия) */
+
+@media(min-width: 320px) and (max-width: 520px){
+    /* courses */
+
+    .courses{
+        margin: 60px 0 0 0;
+    }
+
+    .coursesBlock{
+        width: 100%;
+    }
+}
+
+@media(min-width: 520px) and (max-width: 720px){
+    
+    /* courses */
+
+    .coursesBlock{
+        width: 43vw;
+        padding: 15px 10px;
+    }
+
+    .coursesBlockInformation{
+        flex-wrap: wrap-reverse;
+    }
+
+    .coursesBlockInformationText{
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+
+}
