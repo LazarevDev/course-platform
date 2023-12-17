@@ -19,6 +19,9 @@ $cssAccess[] = '../css/article-items.css';
 
 </head>
 <body>
+
+    <?php require_once('_header.php'); ?>
+    
     <section class="home" id="home">
         <div class="circle"></div>
 

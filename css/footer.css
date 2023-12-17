@@ -70,7 +70,7 @@ footer{
     width: auto !important;
     padding: 14px 28px !important;
     background: #5865FE !important;
-    border-radius: 10px;
+    border-radius: 100px !important;
     border: 1px solid #5865FE;
     font-weight: 500;
     color: #fff;
