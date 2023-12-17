@@ -112,7 +112,7 @@ function slug($db, $paramOne = null, $paramTwo = null, $paramThree = null){
             exit('404');
         }
     }else{ 
-        require_once('template/index.php');
+        header('Location: ../index');
     }
 }
 ?>

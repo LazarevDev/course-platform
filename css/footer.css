@@ -1,0 +1,391 @@
+footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #5865FE;
+    margin: 220px 0 0 0;
+}
+
+.questionsAndSuggestions{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 30px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -180px 0 0 0;
+}
+
+.questionsAndSuggestionsText{
+    width: 35%;
+}
+
+.questionsAndSuggestionsText h3{
+    color: #5865FE;
+    line-height: 36px;
+    font-size: 32px;
+}
+
+.questionsAndSuggestionsText p{
+    font-size: 14px;
+    margin: 20px 0 0 0;   
+    line-height: 16px;
+    color: #666;
+}
+
+.questionsAndSuggestionsFormContainer{
+    width: 50%;
+}
+
+.questionsAndSuggestionsForm{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.questionsAndSuggestionsForm input{
+    background: #F6F7FF;
+    padding: 15px;
+    width: calc(48% - 30px);
+    border-radius: 10px;
+}
+
+.questionsAndSuggestionsForm textarea{
+    margin: 20px 0 0 0;
+    background: #F6F7FF;
+    padding: 10px 15px;
+    border-radius: 10px;
+    height: 120px;
+    width: 100%;
+    resize: none;
+}
+
+.formBtnInfo{
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+
+.formSubmit{
+    width: auto !important;
+    padding: 14px 28px !important;
+    background: #5865FE !important;
+    border-radius: 10px;
+    border: 1px solid #5865FE;
+    font-weight: 500;
+    color: #fff;
+    transition: .4s;
+}
+
+.formSubmit:hover{
+    background: none !important;
+    color: #5865FE;
+}
+
+.formBtnInfo p{
+    padding-left: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.questionsAndSuggestionsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.questionsAndSuggestionsTransparency50{
+    background: #9BA3FE;
+    width: 97%;
+    height: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.questionsAndSuggestionsTransparency20{
+    width: 95%;
+    height: 10px;
+    border-radius: 0 0 10px 10px;
+    background: #7984FE;
+}
+
+/* footerContent */
+
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0 60px 0;
+}
+
+.footerItem{
+    margin: 45px 0 0 0;
+    color: #fff;
+}
+
+.footerItem h3{
+    font-size: 18px;
+}
+
+.footerItem a{
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    margin: 6px 0 0 0;
+}
+
+/* footerBottom */
+
+.footerBottomContent{
+    background: #4552F0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.footerBottom p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footerBottom p a{
+    color: #fff;
+}
+
+
+
+
+
+
+@media(min-width: 320px) and (max-width: 720px){
+    footer{
+        margin: 0px 0 0 0;
+    }
+    
+    .questionsAndSuggestions{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px 20px;
+        margin: -100px 0 0 0;
+        border: 1px solid #ddd;
+    }
+    
+    .questionsAndSuggestionsText{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .questionsAndSuggestionsText h3{
+        line-height: 28px;
+        font-size: 26px;
+    }
+    
+    .questionsAndSuggestionsText p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .questionsAndSuggestionsFormContainer{
+        width: 100%;
+        margin: 25px 0 0 0;
+    }
+    
+    .questionsAndSuggestionsForm{
+        justify-content: center;
+
+    }
+    
+    .questionsAndSuggestionsForm input{
+        padding: 15px;
+        width: calc(100% - 30px);
+        border-radius: 10px;
+        margin: 10px 0 0 0;
+    }
+    
+    .questionsAndSuggestionsForm textarea{
+        margin: 10px 0 0 0;
+        height: 100px;
+    }
+    
+    .formBtnInfo{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .formBtnInfo p{
+        width: 100%;
+        padding-left: 0px;
+        margin: 10px 0 0 0;
+    }
+    
+    .questionsAndSuggestionsTransparency50{
+        background: #9BA3FE;
+        width: 90%;
+        height: 8px;
+        border-radius: 0 0 8px 8px;
+    }
+    
+    .questionsAndSuggestionsTransparency20{
+        width: 85%;
+        height: 8px;
+        border-radius: 0 0 8px 8px;
+        background: #7984FE;
+    }
+}
+
+@media(min-width: 720px) and (max-width: 920px){
+    footer{
+        display: flex;
+        justify-content: center;
+        background: #5865FE;
+        margin: 220px 0 0 0;
+    }
+    
+    .questionsAndSuggestions{
+        display: flex;
+        justify-content: space-between;
+        padding: 45px 30px;
+        border-radius: 20px;
+        background: #fff;
+        margin: -180px 0 0 0;
+    }
+    
+    .questionsAndSuggestionsText{
+        width: 40%;
+    }
+    
+    .questionsAndSuggestionsText h3{
+        line-height: 30px;
+        font-size: 26px;
+    }
+    
+    .questionsAndSuggestionsText p{
+        font-size: 14px;
+        margin: 10px 0 0 0;   
+    }
+    
+    .questionsAndSuggestionsFormContainer{
+        width: 55%;
+    }
+    
+    .formBtnInfo{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 15px 0 0 0;
+    }
+    
+    .formBtnInfo p{
+        padding-left: 0px;
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+    
+    .questionsAndSuggestionsTransparency50{
+        background: #9BA3FE;
+        width: 95%;
+        height: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .questionsAndSuggestionsTransparency20{
+        width: 90%;
+        height: 10px;
+        border-radius: 0 0 10px 10px;
+        background: #7984FE;
+    }
+    
+}
+
+
+@media(min-width: 320px) and (max-width: 550px){
+    
+        
+    /* footerContent */
+
+    .footerContent{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footerItem{
+        width: 100%;
+        margin: 25px 0 0 0;
+    }
+
+
+    .footerItem a{
+        justify-content: center;
+    }
+
+    /* footerBottom */
+
+    .footerBottom{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .footerBottom p{
+        width: 100%;
+        color: #fff;
+        font-size: 14px;
+
+        margin: 10px 0;
+    }
+
+    .footerBottom p a{
+        color: #fff;
+    }
+}
+
+@media(min-width: 550px) and (max-width: 920px){
+    
+        
+    /* footerContent */
+
+    .footerContent{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footerItem{
+        width: 50%;
+        margin: 25px 0 0 0;
+    }
+
+
+    .footerItem a{
+        justify-content: center;
+    }
+
+    /* footerBottom */
+
+    .footerBottom{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .footerBottom p{
+        width: 100%;
+        color: #fff;
+        font-size: 14px;
+
+        margin: 10px 0;
+    }
+
+    .footerBottom p a{
+        color: #fff;
+    }
+}

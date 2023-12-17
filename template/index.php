@@ -1,5 +1,5 @@
 <?php 
-$title = 'Главаная страница';
+$title = 'Главная страница';
 
 $cssAccess[] = '../css/article-items.css';
 ?>
@@ -205,5 +205,7 @@ $cssAccess[] = '../css/article-items.css';
             </div>
         </div>
     </section>
+
+    <?php require_once('_footer.php'); ?>
 </body>
 </html>
